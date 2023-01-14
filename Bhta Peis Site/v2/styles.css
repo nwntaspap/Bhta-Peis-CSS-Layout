@@ -1,0 +1,119 @@
+/*---------- Reset ----------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*---------- Main Styling ----------*/
+html {
+
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.7em;
+    padding-top: 67px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    /* border: 1px solid green; */
+}
+/*---------- Navbar ----------*/
+#navbar {
+    width: 100%;
+    height: 67px;
+    position: fixed;
+    top: 0;
+    background: #333;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+#navbar h1{
+    font-style: italic;
+    padding: 20px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar ul li {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li:hover {
+    background-color: rgb(93, 88, 88);
+}
+
+#navbar li.active {
+    background-color: rgb(93, 88, 88);
+}
+/*---------- Home ----------*/
+.img-back {
+    background: url(./images/home-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    /* opacity: 0.9; */
+}
+
+.img-back h1 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+    /* color: rgb(207, 125, 19); */
+    color: rgb(207, 125, 19);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 12px 7px 5px #ffefef;
+}
+
+.description {
+    margin: 100px auto;
+    max-width: 900px;
+}
+
+.img-back p {
+    padding-top: 30px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+    color: rgb(207, 125, 19);
+    line-height: 1.7em;
+}
+
+.social-links {
+    display: flex;
+    list-style: none;
+}
+
+.social-links li {
+    display: block;
+    padding: 20px;
+    font-size: 30px;   
+}
+
+.social-links a {
+    /* width: 20px;
+    height: 20px; */
+    display: block;
+    color: black;
+}
